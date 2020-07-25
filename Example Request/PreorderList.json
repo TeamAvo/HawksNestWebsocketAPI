@@ -1,0 +1,15 @@
+// Available item list
+
+{
+  "Items": [
+    {
+      "ItemID": 1,
+      "Stock": 0,
+      "ItemStatus": false,
+      "Message": "Out of stock",
+      "ItemName": "Apple",
+      "ItemDescription": "I have a pen~ I have an apple~",
+      "ItemPrice": 10000 // US Dollar
+    }
+  ]
+}

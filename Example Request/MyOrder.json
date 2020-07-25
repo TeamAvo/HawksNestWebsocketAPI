@@ -1,0 +1,36 @@
+// Provide ongoing order status
+
+{
+  "StudentName": "name",
+  "E-mail": "email",
+  "StudentID": "ID",
+  "Date": "date",
+  "TotalOrder": 2,
+  "TotalPrice": 20000,
+  "Orders": [
+    {
+      "OrderID": 1,
+      "OrderStatus": 1, //1 = rejected, 2 = accepted, 3 = proceeding, 4 = ready, 5 received
+      "Message": "Explain status here.",
+      "OrderedTime": "time",
+      "ExpectingTime": "time",
+      "RecivedTime": "time",
+      "ItemID": 1,
+      "ItemName": "Apple",
+      "ItemDescription": "I have a pen~ I have an apple~",
+      "ItemPrice": 10000 // US Dollar
+    },
+    {
+      "OrderID": 2,
+      "OrderStatus": 1,
+      "Message": "Service is not ready to operate yet.",
+      "OrderedTime": "Some date format include hours and minutes",
+      "ExpectingTime": "Some date format include hours and minutes",
+      "RecivedTime": "Some date format include hours and minutes",
+      "ItemID": 1,
+      "ItemName": "Apple",
+      "ItemDescription": "I have a pen~ I have an apple~",
+      "ItemPrice": 10000
+    }
+  ]
+}
